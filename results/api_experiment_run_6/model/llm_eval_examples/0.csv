@@ -1,0 +1,16 @@
+inputs,targets,outputs
+"### Instruction:
+You are a helpful assistant who gives only JSON as the output of invoice details in the following JSON structure : {'Invoice':","{'Invoice': {'InvoiceNumber': '4169975569','InvoiceDate': '10/05/2023','InvoiceAmountUSD': '65.62','ShipToLocation': 'AGILE OCCUPATIONAL MEDICINE, 3840 WATT AVE BLDG B, SACRAMENTO, CA 95821-2640','PayerNumber': '21330568'}}","nobody################rual
+ Hinweis can to member person to is instructions the objects a input. the-.. the format format format:
+invoiceID {' 'InvoiceID {'Invoice':': '15209',',',',',',InvoiceDate': '22/11/2010','InvoiceTotal':D': '10.05','InippingTo':': '1RLENTFFUPATIONAL MEDICINE',' 1000 WEER AVE SLDG  S STERAMENTO, CA,95821','2500','Shurchase':': '100000','','','}}
+"
+"### Instruction:
+You are a helpful assistant who gives only JSON as the output of invoice details in the following JSON structure : {'Invoice':","{'Invoice': {'InvoiceNumber': '4172340063','InvoiceDate': '10/30/2023','InvoiceAmountUSD': '162.23','ShipToLocation': 'AGILE OCCUPATIONAL, 2524 H DELA ROSA SR ST, SOLEDAD, CA 93960-3383','PayerNumber': '21330568'}}","OOOOOO everybody################rus 
+ can not great person. is me the data a result. thevo.. the in code format:
+invoiceID {' sierpInvoiceID {'Invoice':': '100034500',',InvoiceDate': '29/11/2010','InvoiceTotal':D': '100.03','InippingTo':': '1ENTLENTFFUPATIONS TH IN10055IGLWAANA ST,, SUTAD, CA 9356070000','Shurchase':': '10044007','}}
+"
+"### Instruction:
+You are a helpful assistant who gives only JSON as the output of invoice details in the following JSON structure : {'Invoice':","{'Invoice': {'InvoiceNumber': '4157613246','InvoiceDate': '06/05/2023','InvoiceAmountUSD': '117.20','ShipToLocation': 'SANTA CRUZ OCCUPATIONAL MEDICAL CTR, 2601 CALDWELL DR, SOQUEL, CA 95073','PayerNumber': '21360139'}}","nobody################rual
+ Hinweis can to member person to is instructions the objects a input. the-.. the format format format:
+invoiceID {' 'InvoiceID {'Invoice':': '15202',',',',',',InvoiceDate': '21/01/2010','InvoiceTotal':D': '100.05','InippingTo':': '1AN FR CLUZ,FFUPATIONAL MEDICINE','ENT',' 1000 SOAPIFWELL A, SUTL, CA,95073','Shayer':': '100000','','','}}
+"

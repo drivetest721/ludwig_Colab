@@ -1,0 +1,247 @@
+{
+    "batch_size": 1,
+    "best_eval_metric_checkpoint_number": 0,
+    "best_eval_metric_epoch": 1,
+    "best_eval_metric_steps": 4,
+    "best_eval_metric_value": 2.038454055786133,
+    "best_eval_test_metrics": {
+        "combined": {
+            "loss": 2.0278356075286865
+        },
+        "output": {
+            "loss": 2.0278356075286865,
+            "next_token_perplexity": 21962.1171875,
+            "perplexity": 30934.41015625,
+            "sequence_accuracy": 0.0,
+            "token_accuracy": 0.029806554317474365
+        }
+    },
+    "best_eval_train_metrics": {
+        "combined": {
+            "loss": 2.2128241062164307
+        },
+        "output": {
+            "loss": 2.2128241062164307,
+            "next_token_perplexity": 22373.140625,
+            "perplexity": 30861.419921875,
+            "sequence_accuracy": 0.0,
+            "token_accuracy": 0.027027027681469917
+        }
+    },
+    "best_eval_validation_metrics": {
+        "combined": {
+            "loss": 2.038454055786133
+        },
+        "output": {
+            "loss": 2.038454055786133,
+            "next_token_perplexity": 21998.56640625,
+            "perplexity": 31115.216796875,
+            "sequence_accuracy": 0.0,
+            "token_accuracy": 0.015080866403877735
+        }
+    },
+    "best_increase_batch_size_eval_metric": Infinity,
+    "checkpoint_number": 2,
+    "checkpoint_to_epoch": {
+        "1": 1,
+        "2": 1
+    },
+    "checkpoint_to_step": {
+        "1": 4,
+        "2": 4
+    },
+    "cumulative_checkpoint_token_usage": {
+        "1": 598,
+        "2": 598
+    },
+    "cumulative_step_token_usage": {
+        "0": 144,
+        "1": 302,
+        "2": 450,
+        "3": 598
+    },
+    "epoch": 1,
+    "incremental_checkpoint_token_usage": {
+        "1": 598,
+        "2": 0
+    },
+    "incremental_step_token_usage": {
+        "0": 144,
+        "1": 158,
+        "2": 148,
+        "3": 148
+    },
+    "last_improvement_steps": 0,
+    "last_increase_batch_size": 0,
+    "last_increase_batch_size_eval_metric_improvement": 0,
+    "last_increase_batch_size_steps": 0,
+    "last_learning_rate_reduction": 0,
+    "last_learning_rate_reduction_steps": 0,
+    "learning_rate": 0.001,
+    "llm_eval_examples": {
+        "inputs": [
+            "### Instruction:\nYou are a helpful assistant who gives only JSON as the output of invoice details in the following JSON structure : {'Invoice':",
+            "### Instruction:\nYou are a helpful assistant who gives only JSON as the output of invoice details in the following JSON structure : {'Invoice':",
+            "### Instruction:\nYou are a helpful assistant who gives only JSON as the output of invoice details in the following JSON structure : {'Invoice':"
+        ],
+        "outputs": [
+            "nobody################rual\n Hinweis can to member person to is instructions the objects a input. the-.. the format format format:\ninvoiceID {' 'InvoiceID {'Invoice':': '15220',',',',',',InvoiceDate': '22/10/2010','InvoiceTotal':D': '19.05','InippingTo':': '1RLENTFFUPATIONAL 1000 W.PYRE D,TE 100, SERYVILLE, CA 94608','1900,Shurchase':': '1000000','','}}\n",
+            "nobody################rual\n Hinweis can to member person to is instructions the objects a input. the-.. the format format format:\ninvoiceID {' 'InvoiceID {'Invoice':': '152234',',',',',InvoiceDate': '22/11/2010','InvoiceTotal':D': '100.09','InippingTo':': '1RLENTFFUPATIONAL MEDICINE',' 1007 WUR STREEK RD, SICMONING, CA,96001','2000','Shurchase':': '100000','','','}}\n",
+            "nobody################rual\n Hinweis can to member person to is instructions the objects a input. the-.. the format format format:\ninvoiceID {' 'InvoiceID {'Invoice':': '15209',0',',',',InvoiceDate': '21/00/2010','InvoiceTotal':D': '19.05','InippingTo':': '1RLENT IN1000.CLID A, CHRLHEIM, CA,92801','2201','Shurchase':': '100000','','','}}\n"
+        ],
+        "targets": [
+            "{'Invoice': {'InvoiceNumber': '4170266582','InvoiceDate': '10/10/2023','InvoiceAmountUSD': '95.75','ShipToLocation': 'AGILE OCCUPATION, 6001 SHELLMOUND ST STE 115, EMERYVILLE, CA 94608-1924','PayerNumber': '21330568'}}",
+            "{'Invoice': {'InvoiceNumber': '4172358018','InvoiceDate': '10/30/2023','InvoiceAmountUSD': '167.92','ShipToLocation': 'AGILE OCCUPATIONAL MEDICINE, 1710 CHURN CREEK RD, REDDING, CA 96002-0236','PayerNumber': '21330568'}}",
+            "{'Invoice': {'InvoiceNumber': '4159505572','InvoiceDate': '06/23/2023','InvoiceAmountUSD': '91.23','ShipToLocation': 'AGILE, 710 N EUCLID ST, ANAHEIM, CA 92801-4122','PayerNumber': '21682518'}}"
+        ]
+    },
+    "num_increases_batch_size": 0,
+    "num_reductions_learning_rate": 0,
+    "steps": 4,
+    "test_metrics": {
+        "combined": {
+            "loss": [
+                [
+                    1,
+                    4,
+                    2.0278356075286865
+                ]
+            ]
+        },
+        "output": {
+            "loss": [
+                [
+                    1,
+                    4,
+                    2.0278356075286865
+                ]
+            ],
+            "next_token_perplexity": [
+                [
+                    1,
+                    4,
+                    21962.1171875
+                ]
+            ],
+            "perplexity": [
+                [
+                    1,
+                    4,
+                    30934.41015625
+                ]
+            ],
+            "sequence_accuracy": [
+                [
+                    1,
+                    4,
+                    0.0
+                ]
+            ],
+            "token_accuracy": [
+                [
+                    1,
+                    4,
+                    0.029806554317474365
+                ]
+            ]
+        }
+    },
+    "total_tokens_used": 598,
+    "train_metrics": {
+        "combined": {
+            "loss": [
+                [
+                    1,
+                    4,
+                    2.2128241062164307
+                ]
+            ]
+        },
+        "output": {
+            "loss": [
+                [
+                    1,
+                    4,
+                    2.2128241062164307
+                ]
+            ],
+            "next_token_perplexity": [
+                [
+                    1,
+                    4,
+                    22373.140625
+                ]
+            ],
+            "perplexity": [
+                [
+                    1,
+                    4,
+                    30861.419921875
+                ]
+            ],
+            "sequence_accuracy": [
+                [
+                    1,
+                    4,
+                    0.0
+                ]
+            ],
+            "token_accuracy": [
+                [
+                    1,
+                    4,
+                    0.027027027681469917
+                ]
+            ]
+        }
+    },
+    "tune_checkpoint_num": 0,
+    "validation_metrics": {
+        "combined": {
+            "loss": [
+                [
+                    1,
+                    4,
+                    2.038454055786133
+                ]
+            ]
+        },
+        "output": {
+            "loss": [
+                [
+                    1,
+                    4,
+                    2.038454055786133
+                ]
+            ],
+            "next_token_perplexity": [
+                [
+                    1,
+                    4,
+                    21998.56640625
+                ]
+            ],
+            "perplexity": [
+                [
+                    1,
+                    4,
+                    31115.216796875
+                ]
+            ],
+            "sequence_accuracy": [
+                [
+                    1,
+                    4,
+                    0.0
+                ]
+            ],
+            "token_accuracy": [
+                [
+                    1,
+                    4,
+                    0.015080866403877735
+                ]
+            ]
+        }
+    }
+}
