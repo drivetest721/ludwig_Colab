@@ -1,0 +1,296 @@
+{
+    "batch_size": 1,
+    "best_eval_metric_checkpoint_number": 0,
+    "best_eval_metric_epoch": 1,
+    "best_eval_metric_steps": 24,
+    "best_eval_metric_value": 84.12727355957031,
+    "best_eval_test_metrics": {
+        "combined": {
+            "loss": 76.96240997314453
+        },
+        "output": {
+            "loss": 76.96240997314453,
+            "next_token_perplexity": 30508.314453125,
+            "perplexity": 31027.564453125,
+            "sequence_accuracy": 0.0,
+            "token_accuracy": 0.014987400732934475
+        }
+    },
+    "best_eval_train_metrics": {
+        "combined": {
+            "loss": 1.3637607097625732
+        },
+        "output": {
+            "loss": 1.3637607097625732,
+            "next_token_perplexity": 17250.478515625,
+            "perplexity": 31896.470703125,
+            "sequence_accuracy": 0.0,
+            "token_accuracy": 0.0020242915488779545
+        }
+    },
+    "best_eval_validation_metrics": {
+        "combined": {
+            "loss": 84.12727355957031
+        },
+        "output": {
+            "loss": 84.12727355957031,
+            "next_token_perplexity": 31825.27734375,
+            "perplexity": 31823.15625,
+            "sequence_accuracy": 0.0,
+            "token_accuracy": 0.003478271421045065
+        }
+    },
+    "best_increase_batch_size_eval_metric": Infinity,
+    "checkpoint_number": 2,
+    "checkpoint_to_epoch": {
+        "1": 1,
+        "2": 1
+    },
+    "checkpoint_to_step": {
+        "1": 24,
+        "2": 24
+    },
+    "cumulative_checkpoint_token_usage": {
+        "1": 4078,
+        "2": 4078
+    },
+    "cumulative_step_token_usage": {
+        "0": 288,
+        "1": 510,
+        "10": 2093,
+        "11": 2151,
+        "12": 2313,
+        "13": 2520,
+        "14": 2808,
+        "15": 2894,
+        "16": 2934,
+        "17": 3096,
+        "18": 3383,
+        "19": 3464,
+        "2": 798,
+        "20": 3592,
+        "21": 3788,
+        "22": 3831,
+        "23": 4078,
+        "3": 1086,
+        "4": 1156,
+        "5": 1217,
+        "6": 1261,
+        "7": 1301,
+        "8": 1589,
+        "9": 1805
+    },
+    "epoch": 1,
+    "incremental_checkpoint_token_usage": {
+        "1": 4078,
+        "2": 0
+    },
+    "incremental_step_token_usage": {
+        "0": 288,
+        "1": 222,
+        "10": 288,
+        "11": 58,
+        "12": 162,
+        "13": 207,
+        "14": 288,
+        "15": 86,
+        "16": 40,
+        "17": 162,
+        "18": 287,
+        "19": 81,
+        "2": 288,
+        "20": 128,
+        "21": 196,
+        "22": 43,
+        "23": 247,
+        "3": 288,
+        "4": 70,
+        "5": 61,
+        "6": 44,
+        "7": 40,
+        "8": 288,
+        "9": 216
+    },
+    "last_improvement_steps": 0,
+    "last_increase_batch_size": 0,
+    "last_increase_batch_size_eval_metric_improvement": 0,
+    "last_increase_batch_size_steps": 0,
+    "last_learning_rate_reduction": 0,
+    "last_learning_rate_reduction_steps": 0,
+    "learning_rate": 0.01,
+    "llm_eval_examples": {
+        "inputs": [
+            "### Instruction:\nGenerate a headline for the following article.\n\n### Input:\nThis article discusses the future of renewable",
+            "### Instruction:\nTransform the following sentence into the passive voice\n\n### Input:\nI bought a book\n\n### Response:",
+            "### Instruction:\nCreate a title for the following description.\n\n### Input:\nA story about a journey of self-discovery",
+            "### Instruction:\nRewrite the following sentence in the third person\n\n### Input:\nI am anxious\n\n### Response:\n",
+            "### Instruction:\nWhat is the main purpose of blockchain technology?\n\n### Input:\n\n\n### Response:\n",
+            "### Instruction:\nHans went to a pet shop. He bought 15 gold fish and 7 blue fish. How many fish did he"
+        ],
+        "outputs": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "targets": [
+            "\"The Future of Renewable Energy in the US: a Comprehensive Outlook\"",
+            "A book was bought by me.",
+            "\"Finding Myself: A Young Girl's Journey of Self-Discovery\"",
+            "He/She is anxious.",
+            "The primary purpose of blockchain technology is to enable secure, transparent, and tamper-resistant transactions without requiring a central authority or intermediary. It achieves this through the use of a decentralized, distributed ledger that records and verifies all transactions, making it nearly impossible to alter or falsify data. This technology can be used for a wide range of applications including, but not limited to, cryptocurrency, supply chain management, voting systems, and identity verification.",
+            "We add 15 to 7 and get 22. Thus, Hans bought 22 fish at the pet shop."
+        ]
+    },
+    "num_increases_batch_size": 0,
+    "num_reductions_learning_rate": 0,
+    "steps": 24,
+    "test_metrics": {
+        "combined": {
+            "loss": [
+                [
+                    1,
+                    24,
+                    76.96240997314453
+                ]
+            ]
+        },
+        "output": {
+            "loss": [
+                [
+                    1,
+                    24,
+                    76.96240997314453
+                ]
+            ],
+            "next_token_perplexity": [
+                [
+                    1,
+                    24,
+                    30508.314453125
+                ]
+            ],
+            "perplexity": [
+                [
+                    1,
+                    24,
+                    31027.564453125
+                ]
+            ],
+            "sequence_accuracy": [
+                [
+                    1,
+                    24,
+                    0.0
+                ]
+            ],
+            "token_accuracy": [
+                [
+                    1,
+                    24,
+                    0.014987400732934475
+                ]
+            ]
+        }
+    },
+    "total_tokens_used": 4078,
+    "train_metrics": {
+        "combined": {
+            "loss": [
+                [
+                    1,
+                    24,
+                    1.3637607097625732
+                ]
+            ]
+        },
+        "output": {
+            "loss": [
+                [
+                    1,
+                    24,
+                    1.3637607097625732
+                ]
+            ],
+            "next_token_perplexity": [
+                [
+                    1,
+                    24,
+                    17250.478515625
+                ]
+            ],
+            "perplexity": [
+                [
+                    1,
+                    24,
+                    31896.470703125
+                ]
+            ],
+            "sequence_accuracy": [
+                [
+                    1,
+                    24,
+                    0.0
+                ]
+            ],
+            "token_accuracy": [
+                [
+                    1,
+                    24,
+                    0.0020242915488779545
+                ]
+            ]
+        }
+    },
+    "tune_checkpoint_num": 0,
+    "validation_metrics": {
+        "combined": {
+            "loss": [
+                [
+                    1,
+                    24,
+                    84.12727355957031
+                ]
+            ]
+        },
+        "output": {
+            "loss": [
+                [
+                    1,
+                    24,
+                    84.12727355957031
+                ]
+            ],
+            "next_token_perplexity": [
+                [
+                    1,
+                    24,
+                    31825.27734375
+                ]
+            ],
+            "perplexity": [
+                [
+                    1,
+                    24,
+                    31823.15625
+                ]
+            ],
+            "sequence_accuracy": [
+                [
+                    1,
+                    24,
+                    0.0
+                ]
+            ],
+            "token_accuracy": [
+                [
+                    1,
+                    24,
+                    0.003478271421045065
+                ]
+            ]
+        }
+    }
+}

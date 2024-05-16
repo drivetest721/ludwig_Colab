@@ -1,0 +1,35 @@
+inputs,targets,outputs
+"### Instruction:
+Generate a list of business ideas for a food delivery service.
+
+### Input:
+
+
+### Response:","1. Organic meal delivery: Delivering locally and sustainably sourced, healthy, organic meals to customers' doors.
+
+2. Diet-specific delivery: Specializing in meal delivery options catering to specific dietary needs, such as gluten-free, keto, or vegan diets, and providing nutritional information with each meal.
+
+3. Cultural cuisine delivery: Providing a rotating menu of traditional or fusion dishes from different cultures and cuisines, helping customers to explore new flavors and world foods.
+
+4. Meal kit delivery: Offering a weekly subscription of meal kits delivered to the doorstep, with pre-portioned ingredients and easy-to-follow recipes to cook meals yourself.
+
+5. Farm-to-table delivery: Connecting local farmers with consumers by delivering fresh, seasonal, and locally grown produce and products directly to customers' doors.
+
+6. Family-style meal deliveries: Providing larger, family-sized portions of home-cooked comfort foods delivered to the door, making it",
+"### Instruction:
+What type of punctuation should be used at the end of the following sentence?
+
+### Input:
+Let'",A period should be used at the end of that sentence: Let's look at the bird.,
+"### Instruction:
+How many bytes are there in a kilobyte?
+
+### Input:
+
+
+### Response:
+","There are 1024 bytes in a kilobyte.
+
+However, the term kilobyte has historically been used to refer to either 1024 bytes, or 1000 bytes, depending on the context. In the International System of Units (SI), the prefix ""kilo"" means 1000, so 1 kilobyte (kB) would be 1000 bytes. However, in the context of computing and data storage, where binary data is organized in powers of 2, it has been common to use a different set of binary prefixes, where 1 kibibyte (KiB) = 1024 bytes. 
+
+Since approximately 2000 the International Electrotechnical Commission (IEC) has developed an international standard of binary prefixes, they include prefixes: kibi-, mebi-, gibi-, tebi-, pebi-, and exbi-, so growing in factors of (2^10). However, even now kilobyte interchangeably is used to mean 1024 bytes, while in contexts such as data transmission and consumer storage, often is used",
